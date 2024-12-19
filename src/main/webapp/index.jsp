@@ -4,7 +4,7 @@
 </head>
 <body>
 
-    <%@include file="Navbar.jsp"%>
+<%@include file="Navbar.jsp"%>
 
 
 </body>
