@@ -25,6 +25,8 @@ public class EditNoteServlet extends HttpServlet {
             session.update(note);
             session.getTransaction().commit();
             session.close();
+
+            response.sendRedirect("allNotes.jsp");
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
